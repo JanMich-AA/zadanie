@@ -4,7 +4,7 @@ public class Main {
 
 
         loginService.login("user1", "password123");
-        loginService.login("user2@example.com", "kutas", "password456");
+        loginService.login("user2@example.com", "user2", "password456");
         loginService.login("user3", 123456);
         loginService.login("123456789", "password789", 123456);
 
