@@ -4,9 +4,9 @@ public class Main {
 
 
         loginService.login("user1", "password123");
-        loginService.login("user2@example.com", "password456");
+        loginService.loginByEmail("user2@example.com", "password456");
         loginService.login("user3", 123456);
-        loginService.login("123456789", "password789");
+        loginService.loginByPhone("123456789", "password789");
 
 
         User admin = new Admin();
